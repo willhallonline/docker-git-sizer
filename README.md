@@ -19,5 +19,6 @@ docker pull willhallonline/git-sizer:latest
 ### Run on local repo
 
 ```
-docker run -it --rm -v $(pwd):/app willhallonline/git-sizer [YOUR-CODE]
+cd ~/your-local-repo
+docker run -it --rm -v $(pwd):/app willhallonline/git-sizer
 ```
